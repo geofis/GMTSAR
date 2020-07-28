@@ -1,7 +1,6 @@
 ---
 title: "InSAR results with GMTSAR <br> Santo Domingo, <br> Dominican Republic"
-author: José Ramón Martínez Batlle
-  # <br> joseramon@geografiafisica.org
+author: José Ramón Martínez Batlle <br> Autonomous University <br> of Santo Domingo (UASD)
 date: " <br> https://geofis.github.io/GMTSAR/"
 output:
   revealjs::revealjs_presentation:
@@ -172,9 +171,15 @@ time p2p_S1_TOPS.csh S1_20160318_224427_F1 S1_20180119_224445_F1 config.s1a.txt 
 
 <img src="img/cors-rdsd-vertical-component.png" width="90%">
 
+# "RTK FOR ALL!"
+
+## 
+
+<img src="img/rtk-para-todos-cover-page.jpg" width="90%">
+
 ## RTKLIB
 
-* Biblioteca [RTKLIB](http://www.rtklib.com/) (primera versión, 2007), por Tomoji Takasu [@takasu2011rtklib; @takasu2009development]
+* Biblioteca [RTKLIB](http://www.rtklib.com/) (primera versión, 2007), por Tomoji Takasu
 
 ![](img/rtklib.png)
 
@@ -193,6 +198,11 @@ time p2p_S1_TOPS.csh S1_20160318_224427_F1 S1_20180119_224445_F1 config.s1a.txt 
 
 ![](img/rtklib-touchscreen-gui.png)
 
+##
+
+![](img/rpi.png)
+
+
 ## <span style="font-size:60%;">Parts list</span>
 
 | Fecha       | Parte                                                             | Precio |
@@ -210,10 +220,6 @@ time p2p_S1_TOPS.csh S1_20160318_224427_F1 S1_20180119_224445_F1 config.s1a.txt 
 |             | __Total ensamblada__                                              | __US$302__ |
 |             | __Total ensamblada con trípode__                                  | __US$347__ |
 |             | __Total ensamblada con trípode y palo__                           | __US$412__ |
-
-##
-
-![](img/unidad-gnss-partes-basicas.jpeg)
 
 ##
 
