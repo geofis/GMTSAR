@@ -158,6 +158,12 @@ time p2p_S1_TOPS.csh S1_20160318_224427_F1 S1_20180119_224445_F1 config.s1a.txt 
 
 <img src="img/unwrapping-error-2nd.jpg" width="100%">
 
+## Unwrapping successfully
+
+> LOS map generated using the config file from [Sentinel-1 TOPS Los Angeles example](http://topex.ucsd.edu/gmtsar/tar/S1A_SLC_TOPS_LA.tar.gz), which includes interpolation in SNAPHU. I avoided using the Greece example config file. See also [this](http://gmt.soest.hawaii.edu/boards/6/topics/3271) and [this](https://www.mdpi.com/2072-4292/11/2/129/htm) for more on horizontal-vertical decomposition
+
+<img src="img/los-map-mask-2nd.jpg" width="100%">
+
 ## LOS map (SNAP)
 
 <img src="img/los-map-mask-snap-2nd.png" width="90%">
