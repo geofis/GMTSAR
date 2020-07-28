@@ -29,6 +29,8 @@ gmt grdimage dem.grd -JM24 -B0.25i0.25i -Xc -Yc -Ihillshade-int.grd -Cmby.cpt -V
 
 <img src="img/topo.png" width="55%">
 
+# Motivation
+
 ## CORS RDSD
 
 ![](img/unavco_cors_rdsd.png)
