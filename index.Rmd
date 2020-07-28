@@ -30,6 +30,10 @@ gmt grdimage dem.grd -JM24 -B0.25i0.25i -Xc -Yc -Ihillshade-int.grd -Cmby.cpt -V
 
 <img src="img/topo.png" width="55%">
 
+## CORS RDSD (vertical component)
+
+<img src="img/cors-rdsd-vertical-component.png" width="90%">
+
 # 2-pass processing with GMTSAR
 
 # 2019-08 -> 2020-03 <br> All subswaths
@@ -164,17 +168,57 @@ time p2p_S1_TOPS.csh S1_20160318_224427_F1 S1_20180119_224445_F1 config.s1a.txt 
 
 <img src="img/los-map-mask-2nd.jpg" width="100%">
 
-## LOS map (SNAP)
-
-<img src="img/los-map-mask-snap-2nd.png" width="90%">
-
 ## CORS RDSD (vertical component)
 
 <img src="img/cors-rdsd-vertical-component.png" width="90%">
 
-## All subswaths
+## RTKLIB
 
-<img src="img/cancelled-p2p-processing-all-subswaths.jpg" width="75%">
+* Biblioteca [RTKLIB](http://www.rtklib.com/) (primera versión, 2007), por Tomoji Takasu [@takasu2011rtklib; @takasu2009development]
+
+![](img/rtklib.png)
+
+## RTKLIB
+
+![](img/rtklib-github.png)
+
+
+## TouchRTKStation
+
+* [*TouchRTKStation* de Taroz](https://github.com/taroz/TouchRTKStation)
+
+<img src="img/taroz-touchrstation-github.png"  height="100%" width="45%">
+
+## RTKLIB Touchscreen GUI
+
+![](img/rtklib-touchscreen-gui.png)
+
+## <span style="font-size:60%;">Parts list</span>
+
+| Fecha       | Parte                                                             | Precio |
+|-------------|-------------------------------------------------------------------|-------:|
+| 7/jul/2019  | Raspberry Pi 3 B+                                                 |  US$38 |
+| 8/jul/2019  | u-blox NEO-M8T                                                    |  US$75 |
+| 16/jul/2019 | Pantalla táctil Waveshare 480x320                                 |  US$33 |
+| 17/ago/2019 | Atenna TOPGNSS (sustituyó antena u-blox)                          |  US$53 |
+| 18/ago/2019 | Impresión 3D de caja, [repo GitHub de Taroz](https://github.com/taroz/TouchRTKStation) |  US$37 |
+| 17/ago/2019 | 2 Baterías 8800mAh NP-F970 (Sony) con cargador                    |  US$38 |
+| 21/ago/2019 | Adaptador para batería, conversor a ~5V, cables                   |  US$28 |
+| 13/sep/2019 | Trípode                                                           |  US$45 |
+| 25/oct/2019 | Palo 2 m con nivel de burbuja                                     |  US$65 |
+|             | __Total sin ensamblar__                                           | __US$161__ |
+|             | __Total ensamblada__                                              | __US$302__ |
+|             | __Total ensamblada con trípode__                                  | __US$347__ |
+|             | __Total ensamblada con trípode y palo__                           | __US$412__ |
+
+##
+
+![](img/unidad-gnss-partes-basicas.jpeg)
+
+##
+
+![](img/20191102_100053_burbuja.jpg)
+
 
 # References
 
